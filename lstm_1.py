@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 import numpy as np
 import tensorflow as tf
 
-Tweet = pandas.read_csv("/home/rdx/Code/00Internship--TechM/twitter-airline-sentiment/Tweets.csv")
+Tweet = pandas.read_csv("...twitter-airline-sentiment/Tweets.csv")
 
 
 def tweet_to_words(raw_tweet):
